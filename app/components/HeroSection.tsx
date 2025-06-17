@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
-	const iconUrl: string = 'grid.svg';
-	const iconClass: string = `absolute inset-0 bg-[url('/${iconUrl}')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]`;
+	//const iconUrl: string = 'grid.svg';
+	//const iconClass: string = `absolute inset-0 bg-[url('/${iconUrl}')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]`;
 
 	return (
 		<section className="relative min-h-screen flex items-center justify-center overflow-hidden">

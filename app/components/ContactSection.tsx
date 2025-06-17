@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 
 export default function ContactSection() {
-	const iconUrl: string = 'grid.svg';
-	const iconClass: string = `absolute inset-0 bg-[url('/${iconUrl}')] bg-center opacity-20`;
+	//const iconUrl: string = 'grid.svg';
+	//const iconClass: string = `absolute inset-0 bg-[url('/${iconUrl}')] bg-center opacity-20`;
 
 	const gitHubLink: string = 'https://github.com/atlasapplications/';
 	const linkedInLink: string = 'https://www.linkedin.com/in/justin-sasso';
