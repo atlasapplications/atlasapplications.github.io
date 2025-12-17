@@ -6,19 +6,19 @@ import { motion } from 'framer-motion';
 const projects = [
 	{
 		title: 'Find Factory',
-		description: 'Published mobile game made with Godot Engine.',
+		description: 'Released mobile game made with Godot Engine.',
 		image: '/find_factory.png',
 		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
 		tags: ['.NET', 'Swift', 'Java', 'C++'],
 		clickLocation: 'https://www.atlas-applications.com/',
 	},
 	{
-		title: 'Journey Island',
-		description: 'Prototype cross platform game made with Godot Engine.',
-		image: '/journey_island.png',
+		title: 'Roku Streaming Client',
+		description: 'An example Roku streaming client, demonstrating the use of BrightScript and SceneGraph.',
+		image: '/roku_streaming_client_icon.png',
 		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
-		tags: ['.NET', 'Cross Platform', 'iOS', 'Android'],
-		clickLocation: 'https://testflight.apple.com/join/vfHjvtxf',
+		tags: ['BrightScript', 'SceneGraph', 'Roku', 'User Interface'],
+		clickLocation: 'https://github.com/atlasapplications/roku-streaming-client',
 	},
 	{
 		title: 'Godot StoreKit',
@@ -27,14 +27,6 @@ const projects = [
 		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
 		tags: ['Swift', 'StoreKit', 'iOS', 'Apple'],
 		clickLocation: 'https://github.com/atlasapplications/godot-store-kit',
-	},
-	{
-		title: 'Cube Bounce!',
-		description: 'Mobile game made with Unreal Engine.',
-		image: '/cube_bounce.png',
-		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
-		tags: ['Blueprints', 'Unreal Engine', 'Mobile', 'C++'],
-		clickLocation: 'https://github.com/atlasapplications/',
 	},
 	{
 		title: 'UID Explorer Plugin',
@@ -51,6 +43,22 @@ const projects = [
 		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
 		tags: ['Java', 'Billing API', 'Android', 'Google'],
 		clickLocation: 'https://github.com/atlasapplications/godot-google-play-billing',
+	},
+	{
+		title: 'Cube Bounce!',
+		description: 'Mobile game made with Unreal Engine.',
+		image: '/cube_bounce.png',
+		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
+		tags: ['Blueprints', 'Unreal Engine', 'Mobile', 'C++'],
+		clickLocation: 'https://github.com/atlasapplications/',
+	},
+	{
+		title: 'Journey Island',
+		description: 'Prototype cross platform game made with Godot Engine.',
+		image: '/journey_island.png',
+		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
+		tags: ['.NET', 'Cross Platform', 'iOS', 'Android'],
+		clickLocation: 'https://testflight.apple.com/join/vfHjvtxf',
 	},
 ];
 
