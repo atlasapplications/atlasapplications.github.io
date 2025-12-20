@@ -42,15 +42,7 @@ const projects = [
 		image: '/journey_island.png',
 		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
 		tags: ['Java', 'Billing API', 'Android', 'Google'],
-		clickLocation: 'https://github.com/atlasapplications/godot-google-play-billing',
-	},
-	{
-		title: 'Cube Bounce!',
-		description: 'Mobile game made with Unreal Engine.',
-		image: '/cube_bounce.png',
-		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
-		tags: ['Blueprints', 'Unreal Engine', 'Mobile', 'C++'],
-		clickLocation: 'https://github.com/atlasapplications/',
+		clickLocation: 'https://github.com/atlasapplications/godot-google-play-billing/tree/billing-version-7',
 	},
 	{
 		title: 'Journey Island',
@@ -59,6 +51,14 @@ const projects = [
 		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
 		tags: ['.NET', 'Cross Platform', 'iOS', 'Android'],
 		clickLocation: 'https://testflight.apple.com/join/vfHjvtxf',
+	},
+	{
+		title: 'Cube Bounce!',
+		description: 'Mobile game made with Unreal Engine.',
+		image: '/cube_bounce.png',
+		imgSize: '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
+		tags: ['Blueprints', 'Unreal Engine', 'Mobile', 'C++'],
+		clickLocation: 'https://github.com/atlasapplications/',
 	},
 ];
 
